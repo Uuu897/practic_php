@@ -1,0 +1,22 @@
+{
+    "name": "uuu897/practic_php",
+    "description": "pogite",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Uuu897",
+            "email": "Nastiushakova@yandex.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.4 | ^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Src\\": "core/Src/",
+            "": "app/"
+        }
+    }
+}
